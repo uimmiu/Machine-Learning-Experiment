@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import sklearn.linear_model as s_lm
 
 def load_data():
-    data=load_svmlight_file("C:/Users/QinQS/Desktop/housing_scale.txt")
+    data=load_svmlight_file("File location of your data set")
     return data[0],data[1]
 
 X,y=load_data()
